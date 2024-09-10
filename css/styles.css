@@ -17,6 +17,11 @@ a {
     color: inherit;
 }
 
+a:hover,
+a:focus {
+    color: #404bbf;
+}
+
 button {
     cursor: pointer;
 }
@@ -25,26 +30,38 @@ address {
 }
  h1 {
     font-family: inherit;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07143;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
  }
 /* ========== header styles ============*/
+
+.page-header {
+    width: 1440px;
+    height: 72px;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42
-}
-.logo-web {
     color: #4d5ae5;
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 0px;
+}
+.logo-text {
+    color: #2e2f42;
+}
+
+.nav-menu {
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 40px;
 }
 
 .nav-menu-item {
@@ -78,6 +95,14 @@ address {
     background: #2e2f42;
 }
 
+.main-tittle {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07143;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
 .order-button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
