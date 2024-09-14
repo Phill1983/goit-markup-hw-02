@@ -72,6 +72,10 @@ h1 {
         color: #404bbf;
 }
 
+.contacts{
+    font-style: normal
+}
+
 .contacts-info a {
     font-weight: 400;
     font-size: 16px;
